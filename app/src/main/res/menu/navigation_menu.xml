@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/myTrip"
+        android:icon="@drawable/ic_car"
+        android:title="@string/myTrip" />
+
+    <item android:id="@+id/myMessages"
+        android:icon="@drawable/ic_message"
+        android:title="@string/messages" />
+
+    <item android:id="@+id/leaderboard"
+        android:icon="@drawable/ic_leaderboard"
+        android:title="@string/leaderboard" />
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+
+    <item android:id="@+id/complete"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/tripComplete" />
+
+</menu>

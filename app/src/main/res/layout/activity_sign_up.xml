@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="50sp"
+    android:paddingLeft="50sp"
+    android:gravity="center"
+    android:background="@drawable/login_background"
+    android:orientation="vertical"
+    tools:context="com.ronan.carpanion.activities.SignUpActivity">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputGrey"
+        android:textColorHint="@color/inputGrey"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="@string/firstName"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputGrey"
+        android:textColorHint="@color/inputGrey"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="@string/lastName"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputGrey"
+        android:textColorHint="@color/inputGrey"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputGrey"
+        android:textColorHint="@color/inputGrey"
+        android:background="@drawable/input_background"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <Spinner
+        android:id="@+id/userType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/inputGrey"
+        android:textColorHint="@color/inputGrey"
+        android:background="@drawable/input_background"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <Button
+        android:id="@+id/selectProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/purple_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="@string/selectProfileButton" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="7pt" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_button"
+        android:text="@string/create_account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="8pt" />
+
+</LinearLayout>
